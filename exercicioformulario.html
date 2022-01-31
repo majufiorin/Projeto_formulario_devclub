@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap" rel="stylesheet">
+    <title>Formulário de Contato</title>
+</head>
+
+<body>
+    <div class="formulario">
+        <form action="" method="POST">
+            <div class="cadastro">
+                <label for="cadastro">Cadastro</label>
+            </div>
+            <div>
+                <label for="Nome">Nome</label>
+                <input type="text" name="nome" required>
+            </div>
+
+            <label for="Email">Email</label>
+            <input type="email" name="email" required>
+
+
+            <label for="idade">Idade</label>
+            <input type="number" name="idade" id="idade" required min="12">
+
+
+            <label for="data-nascimento">Data de Nascimento</label>
+            <input type="date" name="data" id="data-nascimento" required>
+
+
+            <label for="opcoes-contas">Onde você possui conta?</label>
+            <input type="checkbox" name="opcoes-contas" value="instagram">Instagram
+            <input type="checkbox" name="opcoes-contas" value="facebook">Facebook
+            <input type="checkbox" name="opcoes-contas" value="youtube">Youtube
+
+
+            <label for="sexo">Sexo:</label>
+            <input type="radio" name="sexo" value="feminino" checked>Feminino
+            <input type="radio" name="sexo" value="masculino">Masculino
+
+
+            <label for="cor-olhos">Qual a cor dos seus olhos?</label>
+            <input type="color" value="#8bcfd0" required>
+
+
+            <label for="biografia">Biografia:</label>
+            <textarea name="biografia" id="biografia" cols="20" rows="3" required></textarea>
+
+
+            <label for="perfil">Foto do Perfil</label>
+            <input type="file" name="foto-perfil" id="foto-perfil" accept="image/*" required>
+
+
+            <label for="telefone">Telefone:</label>
+            <input type="tel" name="telefone" min="11" required>
+
+
+            <label for="possui-whatsapp">Possuí Whatsapp?</label>
+            <input type="radio" name="possui-whatsapp" value="sim" checked>Sim
+            <input type="radio" name="possui-whatsapp" value="não">não
+
+
+            <label for="link-perfil">Link do Perfil do Facebook</label>
+            <input type="url" name="link-perfil" id="link-perfil">
+
+
+            <label for="senha">Senha</label>
+            <input type="password" name="senha" min="6" max="8">
+
+            <div class="botoes">
+                <button type="submit" id="botao-enviar">Enviar</button>
+                <button type="reset" id="botao-limpar">Limpar</button>
+            </div>
+        </form>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,54 @@
+* {
+    font-family: 'Nunito', sans-serif;
+}
+
+
+form {  
+    border: 1px solid #80c480;
+    padding: 10px 10px;
+}
+
+.formulario {
+    width: 500px;
+    background-color: #c7fcc6;
+}
+
+.cadastro {
+    margin-bottom: 10px;
+    color: black;
+}
+
+label {
+    display: block;
+    font-size: 16px;
+    color: #b3174b;
+    font-weight: bolder;
+}
+
+input, textarea {
+    margin-bottom: 20px;
+    border: 1px solid #adb3ad;
+}
+
+.botoes {
+    display: block;
+    
+}
+
+#botao-enviar:hover {
+    width: 60px; 
+    height: 25px;  
+    background-color: #F9007D;
+    color: #ffffff;
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+#botao-limpar:hover {
+    width: 60px; 
+    height: 25px;  
+    background-color:#87eb87;
+    color: #ffffff;
+    border: 2px solid black;
+    cursor: pointer;
+}
