@@ -1,5 +1,5 @@
 # desafio_formulario_devclub
-Desafio de HTML e CSS - aulas DEVCLUB com Rodolfo Mori 
+Desafio de HTML e CSS - aulas DEVCLUB com Rodolfo Mori.
 
 Dessa vez o desafio era montar um formulário o mais próximo possível ao modelo mostrado pelo Prof. Rodolfo Mori na vídeo-aula.
 
