@@ -1,4 +1,4 @@
-# Projeto: Desafio criando formulário com diversos tipos de inputs e requisitos.
+# Projeto: Desafio: Criando formulário com diversos tipos de inputs e requisitos.
 
 ## 💻 Sobre o Projeto
 Video aula DEVCLUB 
